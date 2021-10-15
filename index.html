@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <h3 class="head">CUSTOMS CALCULATOR</h3>
+  
+  <form class="form" action="" method="get" accept-charset="utf-8">
+    
+  <div class="box">
+    <label for="price">Price</label>
+    <input class="input" type="text" name="" id="price" value="" placeholder="Please add in USD"/>
+  </div>
+  
+  <div class="box">
+    <label for="freight">Freight</label>
+    <input class="input" type="text" name="" id="freight" value="" placeholder="Please add in USD"/>
+  </div>
+  
+  <div class="box">
+    <label for="duty">Duty</label>
+    <input class="input" type="text" name="" id="duty" value="" placeholder="Add raw number (NO%)"/>
+  </div>
+  
+  <div class="box">
+    <label for="gct">GCT</label>
+    <input class="input" type="text" name="" id="gct" value="" placeholder="Add raw number (NO%)"/>
+  </div>
+  
+  <div class="box">
+    <label for="customsprice">CustomsPrice</label>
+    <input class="input" type="text" name="" id="customsprice" value="" placeholder="Please add in USD"/>
+  </div>
+  
+  <div class="box">
+    <label for="insurance">Insurance</label>
+    <input class="input" type="text" name="" id="insurance" value="" placeholder="Please add in USD"/>
+  </div>
+  
+  <div class="box">
+    <label for="exchange">Exchange Rate</label>
+    <input class="input" type="text" name="" id="exchange" value="" placeholder="Please add Exchange rate"/>
+  </div>
+  
+  <div class="box">
+    <button class="btn noDuty" type="submit">Calculate No Duty
+    </button>
+    
+    <button class="btn CalcDuty" type="submit">Calculate With Duty
+    </button>
+  </div>
+  
+  
+  
+  </form>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
